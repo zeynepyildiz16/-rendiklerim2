@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ÖĞRENDİKLERİM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>ÖĞRENDİKLERİM</h1>
+    <b>
+        <ol>
+            <li>
+                <strong>
+                    <h2>
+                        Etiketler
+                    </h2>
+                </strong>
+            </li>
+    </b>
+    <ul>
+        <li>
+            <h3>Başlık Kavramı (Heading Etiketi)
+            </h3>
+            <p> h1 en büyük olmak üzere h2....h6 ya kadar başlık için kullanılan etiketler vardır.</p>
+        </li>
+        <li>
+            <h3>P</h3>
+            <p> p etiketini paragraflarımız için kullanırız.</p>
+        </li>
+        <li>
+            <h3>Liste Etiketi</h3>
+            <p>
+                Sıralanmamış Listeler için ul etiketi verilerek her bir liste maddesi kadar li arasına maddeler
+                sıralanır.Maddelerin başına noktalar otomatik olarak gelmiş olur.Sıralanmış Listeler için ise ol etiketi
+                verilerek her bir liste maddesi kadar li arasına maddeler sıralanır.Maddelerin başına rakamlar otomatik
+                olarak gelmiş olur.
+            </p>
+        </li>
+        <li>
+            <h3>Resim Etiketi (img)</h3>
+            <p>
+                img kodu kullanılarak sayfaya ilgili resimler eklenebilir.Örneğin img src="denemelifoto.jpg" alt="Var
+                Olmayan" şeklinde yazılım sağladığımızda src kısmı resmin kaynağını belirtirken alt görsel altına
+                yazılacak yazıyı belirtir.
+            </p>
+        </li>
+        <li>
+            <h3>Title Etiketi</h3>
+            <p>
+                Yapılan web sayfasının başlığını oluşturur.
+            </p>
+        </li>
+        <li>
+            <h3> Strong Etiketi</h3>
+            <p>
+                Koyu yazmayı ve vurgulamayı sağlayan etikettir.
+            </p>
+        </li>
+        <li>
+            <h3><u> U Etiketi</u></h3>
+            <p>Ekranda gördüğünüz metnin altını çizme işlemini sağlayan etikettir.</p>
+        </li>
+        <li>
+            <h3>S Etiketi</h3>
+            <p>Ekranda gördüğünüz <s>metnin üstünü çizme</s> işlemini sağlayan etikettir.</p>
+        </li>
+        <li>
+            <h3>em Etiketi</h3>
+            <p><em>Şuan ekranda görünen metnin italik görünmesini sağlayan etikettir.</em></p>
+        </li>
+        <li>
+            <h3>Link Etiketi (a)</h3>
+            <p> <a href="https://www.kodkampusu.com/html-etiketler/">Ana Sayfa</a></p>
+            <p>Burda a link tanımlamak için kullanılır,dosya adı için href kullanılır ve en sonunda Linke bir isim
+                verilir örneğin benim ana sayfa ismini vermem gibi.Ancak bu yöntemle link bulunduğumuz sayfada açılır.
+            </p>
+            <p>Yeni bir sayfaya yönlendirmek için <em><strong>Target Özelliği </strong></em> kullanılmalıdır.Örneğin a
+                href="https://www.kodkampusu.com/html-etiketler/" <strong><em>Target="_blank"</em></strong> >Yeni Bir
+                Pencere yada sekme açar> <a href="https://www.kodkampusu.com/html-etiketler/" Target="_blank">Tıkla ve
+                    Gör</a></p>
+            <p>Ayrıca <strong><em>Target="_self"</em></strong> sayfayı aynı çerçevede açar <a
+                    href="https://www.kodkampusu.com/html-etiketler/" target="_self">Tıkla Dene</a></p>
+        </li>
+    </ul>
+    <hr width="100%" color="#0000F8" size="4">
+    <B>
+        <strong>
+            <li>
+                <h2>
+                    Stiller
+                </h2>
+            </li>
+        </strong>
+    </B>
+    <B></B>
+    <ul>
+        <li>
+            <h3>Arka plan renginin değiştirilmesi</h3>
+            <p> Background-color etiketi kullanılarak arka plan rengini,Color etiketini kullanarakta yazıların
+                renklerini Css dosyasında renkleri değiştirdim.</p>
+        </li>
+        <li>
+            <h3>hr Etiketinin kullanımı</h3>
+            <p>Ekrana yatay çizgi çizmek için kullanılır.br etiketi gibi sonlandırıcısı yoktur.</p>
+            <table border="2">
+                <tr>
+                    <td>Girilecek Kod</td>
+                    <td>Görevi</td>
+                </tr>
+                <tr>
+                    <td>width = "genişlik</td>
+                    <td>Çizilecek çizginin yatay uzunluğunu belirlemek için kullanılır.</td>
+                </tr>
+                <tr>
+                    <td>size = "kalınlık"</td>
+                    <td>Çizilecek çizginin kalınlığını belirtir.</td>
+                </tr>
+                <tr>
+                    <td>color = "renk"</td>,
+                    <td>Çizilecek çizginin rengini belirtir.</td>
+                </tr>
+            </table>
+            <p>Bu kod, sayfa genişliğinde kalın ve mavi bir çizgi hr width="100%" color="#0000F8" size="4" çizer.</p>
+        </li>
+        <li>
+            <h3>Buton Etiketi ve Css le şekil verme</h3>
+            <a href="https://www.kodkampusu.com/html-etiketler/"><button
+                    style="background-color:tomato;color:white;width:100%;width: 60px;">TIKLA <button></a>
+        </li>
+        <P>Bir Buton etiketi kullanarak içine link atadık ayrıca butonun arka planının rengini ve üzerine gidildiğinde
+            parçalı gözükmesini sağladık.</P>
+        <li>
+            <h3>Linklere Renk Ve Biçim Atama</h3>
+            <p>a:link durum seçicisi bağlantılı link için işlem yapar</p>
+            <p>a:visited ziyaret edilmiş bağlantı için işlem yapar </p>
+            <p>hover fare linkin üzerindeyken olacak durum için işlem yapar</p>
+            <p>active tıklanmış link için işlem yapar</p>
+
+        </li>
+        <li>
+            <h3>Kısmi Seçiciler</h3>
+            <table border="2">
+                <tr>
+                    <td>Kısmi Seçici</td>
+                    <td>Açıklama</td>
+                </tr>
+                <tr>
+                    <td>first - line </td>
+                    <td>İlk satır</td>
+                </tr>
+                <tr>
+                    <td>first- letter</td>
+                    <td>İlk Harf (ben bu komutla ilk harfleri büyüttüm)</td>
+                </tr>
+                <tr>
+                    <td>before</td>
+                    <td>önceki h1: : dersek ve sonra bfore kullanırsak h1 etiketinden önce yap deriz</td>
+                </tr>
+                <tr>
+                    <td>after</td>
+                    <td>sonraki h1:: dersek ve sonra after kullanırsak h1 etiketinden sonra yap deriz</td>
+                </tr>
+                <tr>
+                    <td>marker</td>
+                    <td>Lİste madde imi.Ben bunu kullanarak madde rengini kırmızı yaptım</td>
+                </tr>
+                <tr>
+                    <td>selection</td>
+                    <td>Seçilen nesne</td>
+                </tr>
+            </table>
+        </li>
+    </ul>
+
+    <hr width="100%" color="#ff00ff" size="4">
+    <ul>
+        <li>
+            <h3>Özellik Seçici Kullanımı</h3>
+            <p>Belli bir Özelliğe sahip komutları seçmeye yarar.Örneğin Bİr form oluşturalım ve bu From elemanları için
+                Css kod yazalım</p>
+            <form>
+                Ad Soyad: <input type="text"><br>
+                Yaş: <input type="number"><br>
+                <input type="submit"><input type="reset">
+            </form><br>
+            <p>Bu form input type=text,number,submit,reset komutlarıyla oluşturuldu.Ardından input için css kodları
+                atandı</p>
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <h3>İnput Kullanımı</h3>
+        </li>
+        <p>Örneğin aşağıda verilen örnekte kullanılan input değeri Select tir.Select içine kaç opsiyon atanacaksa
+            yazılır ve bu tablo ortaya çıkar</p>
+        <form>
+            okul durumu seçin
+            <select name="okul" id="okul">
+                <option value="ilkokul">İlkokul Mezunu</option>
+                <option value="lise">Lİse Mezunu</option>
+                <option value="Üniversite">Üniversite Mezunu</option>
+            </select>
+            <input type="submit" value="Formu Gönder">
+        </form><br>
+
+        <p>İnput un diğer bir değeri olan checkbox için ise type kısmında checkbox seçmemiz yeterlidir.</p>
+
+        :)<input type="checkbox" name="Benim Gibi" id="bos"><br>
+        <p>İnput un diğer bir değeri olan color için ise type kısmında color seçmemiz yeterlidir.Aşağıda bir örneği
+            mevcuttur.</p>
+        renk seç :) <input type="color"><br>
+        <p>İnput un diğer bir değeri olan tarih ve saat için type kısmında datetime-local seçin.Aşağıda bir örneği
+            mevcuttur.</p><br>                    
+        Lütfen Tarih ve Saat Belirleyiniz :)<input type="datetime-local" name="Tarih Seç" id="Tarih">
+    </ul>
+    <hr width="100%" color="#00ff00" size="4">
+    <UL>
+        <b>
+            <li>
+                <strong>
+                    <H2>Metin Biçimlendirmesi</H2>
+                </strong>
+            </li>
+        </b>
+    </UL>
+    <ol>
+        <li>
+            <h3>Paragraf Özellikleri</h3>
+        </li>
+        <table border="2">
+            <tr>
+                <td>Özellik</td>
+                <td>Alabileceği Değerler</td>
+                <td>Açıklama</td>
+            </tr>
+            <tr>
+                <td>text-indext</td>
+                <td>em,px</td>
+                <td>Paragrafın İlk Satırdaki Girintisini Ayarlar</td>
+            </tr>
+            <tr>
+                <td>text-align</td>
+                <td>left,right,center,justify</td>
+                <td>Paragrafın sola,sağa,ortaya veya heriki kenara yaslanmasını sağlar.</td>
+            </tr>
+            <tr>
+                <td>line -heigt</td>
+                <td>em,px</td>
+                <td>Paragraftaki satılar arasındaki mesafeyi ayarlar.</td>
+            </tr>
+
+        </table>
+        <p>Şimdi konuyla ilgili örneklerin anlaşılabilmesi için birden fazla anlamsız paragraf oluşturacağım
+            <strong><em>Lorem</em></strong> yardımı ile.
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolores tempore esse, reiciendis, laborum
+            adipisci eos rem tenetur, rerum alias iusto corporis. Velit sapiente qui vero eaque dolor, mollitia
+            assumenda.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla praesentium cupiditate quod eaque atque
+            accusantium, inventore minus cum quae deleniti voluptatem impedit error alias. Unde necessitatibus nihil
+            distinctio cum dolorem?
+            Necessitatibus tempora facilis rerum assumenda itaque, commodi maiores veniam et, quam eius nemo laudantium
+            reiciendis exercitationem non a iusto dolore doloremque fugiat, eos pariatur? Obcaecati porro cupiditate
+            vitae magnam praesentium.
+            Quo ut, illum hic explicabo aperiam deleniti eaque unde velit blanditiis nemo labore delectus sed amet
+            quibusdam fuga eveniet dolores corporis quis magnam sit iste placeat in fugiat saepe. Iusto.
+            Porro in tempora mollitia amet pariatur nemo voluptatibus corporis nam tenetur. Optio porro fuga fugit,
+            repellat voluptatum aut voluptates ut? Soluta nam repellendus id facilis impedit temporibus asperiores
+            tenetur dolorem?
+            Reiciendis laudantium a, quam vel omnis illum, delectus sunt nesciunt nihil eum culpa perspiciatis doloribus
+            consequuntur! Dicta distinctio fuga unde quis, in facere alias ut molestias totam ullam, voluptate illum?
+        </p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam atque quisquam et placeat eveniet tenetur
+            necessitatibus repellat perspiciatis! Doloribus ut repellendus nobis aut adipisci nam nostrum excepturi a
+            ipsa sed.
+            Aperiam, tenetur nostrum? Nemo obcaecati consectetur qui ipsum itaque nostrum rem quo unde et ducimus
+            voluptatem, soluta molestias omnis quisquam nam natus cumque incidunt, exercitationem maxime, reiciendis
+            molestiae iusto hic?
+            A distinctio incidunt laudantium sit fugiat magnam praesentium nobis delectus ad dolor et officiis facere
+            asperiores assumenda magni sint, hic numquam quas molestias enim necessitatibus. Illo consequuntur non
+            tempora eaque!
+            Tempore quibusdam reiciendis eligendi incidunt sequi nisi vero officiis nostrum reprehenderit veritatis,
+            delectus fugit obcaecati esse eum accusamus porro iusto, accusantium itaque dolorum. Voluptatum similique ut
+            provident incidunt. Impedit, harum!</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, rem a veritatis dicta neque reiciendis fuga
+            adipisci nostrum officiis, provident non vero? Necessitatibus dolor provident quas sunt excepturi velit aut!
+            Dicta est, laboriosam quia, exercitationem nisi necessitatibus illo voluptates facilis atque commodi veniam
+            fugiat eos, labore enim nesciunt et? Aliquid.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio quo consectetur sint?</p>
+        <li>
+            <h3>YazıTipi Özellikleri</h3>
+        </li>
+        <table border="2px">
+            <tr>
+                <td>Özellik</td>
+                <td>Alabileceği Değerler</td>
+                <td>Açıklama</td>
+            </tr>
+            <tr>
+                <td>Font-Family</td>
+                <td>Times,Courier,Verdana,...</td>
+                <div>
+                    <td class="yazıtipi">Yazıtipi</td>
+                </div>
+            </tr>
+            <tr>
+                <td>color</td>
+                <td>renk adı ,#rggbb,rgb(rrr,ggg,bbb)</td>
+                <div>
+                    <td class="renk">Metin rengini değiştirir</td>
+                </div>
+            </tr>
+            <tr>
+                <td>font-size</td>
+                <td>smaller,small,medium,large,larger,px,em</td>
+                <div>
+                    <td class="büyük">Metin Boyutunu Değiştirir.1 em=16px</td>
+                </div>
+            </tr>
+            <tr>
+                <td>font-weight</td>
+                <td>lighter,normal,bold,bolder</td>
+                <div>
+                    <td class="kalın">Metinleri daha ince,normal ya da kalın gösterir</td>
+                </div>
+            </tr>
+            <tr>
+                <td>font-style</td>
+                <td>normal,italic</td>
+                <div>
+                    <td class="egik">Metinlerin normal yada eğik görünmesini sağlar</td>
+                </div>
+            </tr>
+            <tr>
+                <td>font-variant</td>
+                <td>normal,smal-caps</td>
+                <div>
+                    <td class="büyükharf">Metinlerin küçük harf boyutlarında ama büyük harf karakterleri ile
+                        görünmesini sağlar</td>
+                </div>
+            </tr>
+            <tr>
+                <td>text-transform</td>
+                <td>none,lowercase,uppercase,capitalize</td>
+                <div>
+                    <td class="kom">Metinleri Büyük Harfe veya küçük Harfe Çevirmeye yarar</td>
+                </div>
+            </tr>
+            <tr>
+                <td>text-decoration</td>
+                <td>none,underline,overline,line-through</td>
+                <div>
+                    <td class="cizgi">Metinlerin altını,üstünü veya üzerini çizmek için kullanılır</td>
+                </div>
+            </tr>
+            <tr>
+                <td>letter-spacing</td>
+                <td>normal,em</td>
+                <div>
+                    <td class="mesafe">Harfler arasındaki mesafe</td>
+                </div>
+            </tr>
+            <tr>
+                <td>word-spacing</td>
+                <td>normal,em</td>
+                <div>
+                    <td class="kelime">Kelimeler arasındaki mesafe</td>
+                </div>
+            </tr>
+        </table>
+        <li>
+            <h3>Web Güvenli Yazıtipleri</h3>
+        </li>
+        <P>Yaygın olarak Arial,Verdana,Times,Tahoma,Courier,Helvatica gibi yazıtipleridir.</P>
+    </ol>
+    <ul>
+        <strong>
+            <li>
+                <h3>Metin Ardalan İşlemleri</h3>
+            </li>
+        </strong>
+        <div>
+            <p class="foto">Ardalan rengi için :background-color,Ardalan resmi için:background-image
+                kullanılır.Kullandığımız arka plan fotoğrafı yazı arttıkça daha da belli olmaya başlar.</p>
+        </div>
+        <li><strong>
+                <h3>Liste Madde İmlerinin Biçimlendirilmesi</h3>
+            </strong></li>
+        <p>Madde imlerini değiştirmek İçin list-style-type özelleği kullanılır.</p>
+        <ul>
+            <div>
+                <li class="none">none(madde imi yok)</li>
+                <li class="disk">disk(daire)</li>
+                <li class="circle">circle(Çember)</li>
+                <li class="square">square(Kare)</li>
+                <li class="numara">decimal(numara)</li>
+                <li class="lower-alpha">lower-alpha(küçük harf,a,b,c)</li>
+                <li class="lower-greek">lower-greek(yunanca küçük harf)</li>
+                <li class="lower-latin">lower-latin(latince küçük harf)</li>
+                <li class="lower-roman">lower-roman(küçük roma rakamı)</li>
+                <li class="upper-alpha">upper-alpha(Büyük Harf,A,B,B)</li>
+                <li class="upper-greek">upper-greek(yunanca büyük harf)</li>
+                <li class="upper-latin">upper-latin(Latince Büyük Harf)</li>
+                <li class="upper-roman">upper-roman(Büyük Roma Rakamı)</li>
+                <li>url(Madde imleri yerine resim grüntülenir.)</li>
+            </div>
+        </ul>
+
+
+    </ul>
+    <hr width="100%" color="#FF0000" size="4">
+    <Li><strong>
+            <H2>CSS Kutu Modeli</H2>
+        </strong></Li>
+    </ol>
+    <ul>
+        <li>
+            <strong>
+                Css Kutu Modeli
+            </strong>
+        </li><br>
+        <p>
+            Css,web sayfasında bulunan Html komutlarını birer kutu olarak görür ve işlemlerini buna göre yapar.Css'e
+            birer kutu gibi görünen Html komutları içerik,iç aralık(padding),kenarlık ve dış-aralıktan(margin)
+            oluşmaktadır.
+        </p><br>
+        <strong>
+            <li>Kutu Kenarları</li>
+        </strong>
+        <p>Kutu Kenarlarını Kontrol Etmek İçin Border Özelliği kullanılır.</p>
+
+        <table border="2px" ,>
+            <tr>
+                <td>
+                    Özellik
+                </td>
+                <td>
+                    Alabileceği Değerler
+                </td>
+                <td>
+                    Açıklama
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Border-style
+                </td>
+                <td>
+                    none,solid,dotted,dashed,double,groove,ridge,inset,outset
+                </td>
+                <td>
+                    Kenar çizgi tipini belirler
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    border-width
+                </td>
+                <td>
+                    px,thin,medium,thick
+                </td>
+                <td>
+                    Çizgi Kalınlığını Ayarlar
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    border-color
+                </td>
+                <td>
+                    renk_adı,#rggbb,rgb(rrr,ggg,bbb)
+                </td>
+                <td>
+                    Kenarlık rengini belirler.
+                </td>
+            </tr>
+        </table><br>
+        <p>Aşağıda Loremle yapılan kutu çalışmasında bu özellikler kullanılmıştır.</p>
+        <div class="kutu">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum non perspiciatis eos excepturi error
+            necessitatibus rerum eveniet iure adipisci vitae nemo totam itaque aliquid, suscipit voluptates, enim
+            asperiores animi eum?<br>
+            Perspiciatis, vel laborum quia beatae voluptatum accusantium, soluta, nisi quos aperiam magni aliquam
+            placeat! Culpa temporibus ipsam, amet quaerat facere ipsum corrupti aut tempore, in autem rem, reprehenderit
+            optio natus?<br>
+            Iure unde officiis soluta illum modi neque eligendi architecto hic quam velit harum, quos minus rem
+            provident in cumque dolores quaerat perspiciatis veritatis praesentium odit placeat vero? In, consequuntur
+            blanditiis! <br>
+            Qui perferendis aut accusamus libero non illo dignissimos iste, quibusdam facere optio voluptas repellendus
+            perspiciatis eos harum et officiis officia architecto suscipit soluta maiores assumenda, error similique.
+            Hic, laboriosam laudantium!
+        </div><br><br>
+        <p>Aşağıda oluşturulan kutuda padding ve border özellikleri kullanılmıştır.</p>
+        <strong>
+            <div class="boyut">
+                <br>
+        </strong>
+        <p class="boyut2">Kutu Boyutu</p>
+        <H3 class="boyut3">Kutu İçin Örnek Çalışma </H3>
+        <p class="boyut4">Kutu Boyutunu belirlemek için width ve height Özellikleri kullanılır.</p>
+        <p class="boyut5">Lorem ipsum dolor sit amet.</p><br>
+
+        </div>
+        <li>
+            <strong>Kutu İç Aralık Ayarı(Padding)</strong>
+        </li>
+        <p>Padding kutumuzu genişletmeye yarar.İçerik ile kenarlık arasındaki mesafe padding özelliği ile
+            ayarlanır.Aşağıda kullanım biçimi yer almaktadır.</p>
+        div { <br>
+        padding-top:50px; <br>
+        padding-right:30px; <br>
+        padding-bottom:25px;<br>
+        padding-left:80px;
+        }<br><br>
+        <li><strong>
+                Kutu Sınırı (Margin) Ayarları
+        </li></strong>
+        <p>Kutu kenarı ve diğer nesneler arasındaki mesafeyi belirlemek için margin kullanılır.Şimdi div ve class
+            yardımıyle bir kutu oluşturacağım ardından bu kutunun sınırlarını margin kullanarak belirleyeceğim.Örnek
+            aşağıda</p>
+        <div class="deneme">
+            Lorem ipsum dolor sit amet, consectetur adipisci
+            Lorem, ipsum dolor. Lorem, ipsum.
+            Lorem, ipsum dolor sit amet consectetur adipisicing.
+        </div>
+        <div class="deneme2">
+            Lorem ipsum dolor sit amet consectetur adipisicing. Lorem, ipsum dolor.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, itaque?
+        </div><br>
+        <li><strong>
+                Kutu Boyutunun Sabitlenmesi
+            </strong></li>
+        <p>margin,border ve padding komutları ile verilen değerler içerik boyutuna eklenmektedir.Örneğin,resim 200px ise
+            border:5px ve margin:5px komutundan sonra nesne boyutu 210px olur. </p>
+        <p>Bu tür nesnelerin boyutunu sabit tutmak için box-sizing özelliği kullanılır</p><br>
+        *{box-sizing:border-box; } <br><br><br>
+
+        <li><strong>
+                Kutu Arkaplan Rengi ve Resmi
+            </strong></li>
+        <p>Kutuların Arkaplanı için background özelliği kullanılır.</p><br>
+        <div class="arkaplan">
+            p{<br>
+            background-color:yellow;<br>
+            background-image:url(/resimler/resim.jpg);<br>
+            width:400px; <br>
+            Border-style:inset;(gölgeli çizgi) <br>
+            border-width;10px;(çizgi kalınlığı) <br>
+            background-size: arkaplan resminin boyutunu değiştirir.
+
+            }
+        </div>
+
+
+
+
+
+    </ul>
+</body>
+
+</html>
